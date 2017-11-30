@@ -10,7 +10,7 @@ import mmpProjectGithub.pages.Adminregistration;
 
 
 public class AdminModuleTestscripts extends mmpProjectGithub.utils.BaseClass {
-
+// made changes here too
 	@Parameters({"browser","url"})
 	@BeforeClass(alwaysRun =true ,description="set up the browser andlaunch the website")
 	public void setup (String browser ,String url){
